@@ -4,11 +4,7 @@ Developer: Medhad
 Scope: Home Assignment for iOS position interview 
 
 ## Project Detail:  
-<object data="https://github.com/leovinci7/simple_weather_app/blob/main/take_home_project.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/leovinci7/simple_weather_app/blob/main/take_home_project.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/leovinci7/simple_weather_app/blob/main/take_home_project.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+https://github.com/leovinci7/simple_weather_app/blob/main/take_home_project.pdf
 
 ## Trade Offs and Architecture:
 - Followed simple MVVM pattern to keep view and business logic separate and clean. Kept the model and API services independent from View and View Model (Presentation layer)
@@ -19,5 +15,5 @@ Simply open Xcode and run the app in simulator. No signing is required
 - The app will display Toronto weather information and relevant icon from given endpoint
 - Loading button will reload the data (date displayed are random, since all the dates are old) 
 ## 3rd party Library/Code
-- No 3rd party library has been used. Some snippets of code were copied from stackoverflow, or inspired from iOS essential Dev tutorials. 
+- No 3rd party library has been used. Some snippets of code were inspired from iOS essential Dev tutorials. 
 

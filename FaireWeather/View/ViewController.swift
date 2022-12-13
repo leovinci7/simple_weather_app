@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var weatherStateLabel: UILabel!
     @IBOutlet weak var maxTemperatureLabel: UILabel!
     @IBOutlet weak var minTemperatureLabel: UILabel!
+    @IBOutlet weak var LoadButton: UIButton!
     
     //GET https://cdn.faire.com/static/mobile-take-home/{location_id}.json
     //For Toronto: https://cdn.faire.com/static/mobile-take-home/4418.json
@@ -33,13 +34,23 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         
+        
         // Do any additional setup after loading the view.
+       // self.LoadButton.titleLabel?.text = "Load"
         self.fetchWeatherInfo()
         
     }
+    override func viewDidAppear(_ animated: Bool) {
+        self.LoadButton.titleLabel?.text = "Load"
+    }
     
   
-   
+    @IBAction func loadButtonAction(_ sender: Any) {
+        
+        print("Button pressed")
+        self.fetchWeatherInfo()
+    }
+    
     func fetchWeatherInfo(){
         
         WeatherInfoProvider.loadWeatherInfo(){ result in

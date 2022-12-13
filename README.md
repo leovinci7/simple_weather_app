@@ -1,7 +1,14 @@
 # simple_weather_app
 
-Developer: Medhad Ashraf Islam
+Developer: Medhad  
 Scope: Home Assignment for iOS position interview 
+
+## Project Detail:  
+<object data="https://github.com/leovinci7/simple_weather_app/blob/main/take_home_project.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://github.com/leovinci7/simple_weather_app/blob/main/take_home_project.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/leovinci7/simple_weather_app/blob/main/take_home_project.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 ## Trade Offs and Architecture:
 - Followed simple MVVM pattern to keep view and business logic separate and clean. Kept the model and API services independent from View and View Model (Presentation layer)

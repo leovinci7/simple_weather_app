@@ -11,6 +11,6 @@ Scope: Home Assignment for iOS position interview
 Simply open Xcode and run the app in simulator. No signing is required
 - The app will display Toronto weather information and relevant icon from given endpoint
 - Loading button will reload the data (date displayed are random, since all the dates are old) 
-# 3rd party Library/Code
-# No 3rd party library has been used. Some snippets of code were copied from stackoverflow, or inspired from iOS essential Dev tutorials. 
+## 3rd party Library/Code
+- No 3rd party library has been used. Some snippets of code were copied from stackoverflow, or inspired from iOS essential Dev tutorials. 
 

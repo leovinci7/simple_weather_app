@@ -1,6 +1,6 @@
 # simple_weather_app
 
-Developer: Me 
+Developer: Me   
 Scope: Home Assignment for iOS position interview 
 
 ## Project Detail:  
